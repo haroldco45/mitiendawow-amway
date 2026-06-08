@@ -3,819 +3,479 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#1B6B3A">
-<meta name="description" content="Productos originales de nutrición, suplementos, cuidado de la piel, belleza y hogar — Amway Colombia">
-<meta property="og:title" content="MI TIENDA WOW">
-<meta property="og:description" content="Distribuidor Amway Independiente — Harold Marín">
+<title>MI TIENDA WOW — Amway Colombia 2026</title>
+<meta property="og:title" content="MI TIENDA WOW — Amway Colombia 2026">
+<meta property="og:description" content="Hogar, Nutrición y Cuidado Personal Amway. Precios oficiales Colombia 2026. Pide por WhatsApp.">
+<meta property="og:image" content="https://images.contentstack.io/v3/assets/blt61e661dff490fa0d/bltc101f881e740578a/68372cb10f86ea66262f90fc/CategoriaHogar.jpg">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<title>MI TIENDA WOW — Amway</title>
-<link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --g1:#1B6B3A;--g2:#2E8B57;--g3:#E8F5EE;
-  --gold:#C8941A;--gold-l:#FDF6E3;
-  --red:#DC3545;--red-l:#FFF0F0;
-  --gray:#6c757d;--gray-l:#F8F9FA;
-  --border:#E2E8E4;
-  --shadow:0 2px 12px rgba(0,0,0,.08);
-  --radius:14px;--radius-sm:8px;
-  --font:'Outfit',sans-serif;
-  --body:'DM Sans',sans-serif;
+:root {
+  --green:#1B6B2F; --green2:#2E8B47; --green3:#E8F5E9; --green4:#C8E6C9;
+  --blue:#1565C0; --blue2:#1976D2; --blue3:#E3F2FD;
+  --purple:#6A1B9A; --purple2:#7B1FA2; --purple3:#F3E5F5;
+  --dark:#0D1B2A; --text:#1C2B3A; --muted:#6B7C8D;
+  --white:#FFFFFF; --bg:#F5F7FA; --border:#E2E8EF;
+  --red:#D32F2F; --amber:#F57C00;
+  --shadow:0 2px 12px rgba(0,0,0,.07);
+  --shadow-hover:0 8px 28px rgba(0,0,0,.13);
+  --radius:16px;
 }
-body{font-family:var(--font);background:#F4F7F5;min-height:100vh;color:#1a2e22}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
 
-/* ── HEADER ── */
-.header{background:var(--g1);color:#fff;padding:0;position:sticky;top:0;z-index:100;box-shadow:0 2px 16px rgba(0,0,0,.18)}
-.header-inner{display:flex;align-items:center;gap:12px;padding:12px 16px}
-.logo-circle{width:44px;height:44px;border-radius:50%;background:#fff;border:2px solid rgba(255,255,255,.3);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--g1);text-align:center;line-height:1.2;overflow:hidden;flex-shrink:0;cursor:pointer}
-.logo-circle img{width:100%;height:100%;object-fit:cover;border-radius:50%}
-.logo-placeholder{font-size:11px;font-weight:700;text-align:center;line-height:1.2;padding:4px}
-.header-info h1{font-size:18px;font-weight:700;letter-spacing:.3px}
-.header-info p{font-size:11px;opacity:.75;font-family:var(--body)}
-.header-actions{margin-left:auto;display:flex;gap:8px;align-items:center}
-.btn-icon{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:10px;width:40px;height:40px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:18px;position:relative;transition:background .2s}
-.btn-icon:hover{background:rgba(255,255,255,.25)}
-.cart-badge{position:absolute;top:-4px;right:-4px;background:var(--gold);color:#fff;border-radius:50%;width:18px;height:18px;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center}
+/* ── HERO ── */
+.hero{
+  background:linear-gradient(135deg,#0a3d1f 0%,#1B6B2F 55%,#2E8B47 100%);
+  color:#fff;padding:36px 20px 28px;text-align:center;position:relative;overflow:hidden
+}
+.hero::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 20% 50%,rgba(255,255,255,.06) 0%,transparent 60%),
+             radial-gradient(ellipse at 80% 20%,rgba(255,255,255,.04) 0%,transparent 50%);
+}
+.hero-eyebrow{font-size:11px;letter-spacing:3px;text-transform:uppercase;opacity:.7;margin-bottom:6px;font-weight:500}
+.hero h1{font-size:clamp(26px,7vw,44px);font-weight:900;line-height:1.1;margin-bottom:6px}
+.hero h1 em{font-style:italic;font-family:'Playfair Display',serif;color:#A5D6A7;font-weight:400}
+.hero-sub{font-size:13px;opacity:.8;margin-bottom:18px;font-weight:300;max-width:340px;margin-inline:auto}
+.hero-badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;position:relative}
+.badge{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:20px;
+  padding:4px 12px;font-size:11px;font-weight:600;backdrop-filter:blur(4px)}
 
-/* ── BANNER ── */
-.banner{width:100%;height:140px;background:linear-gradient(135deg,#1B6B3A 0%,#2E8B57 50%,#4CAF50 100%);display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative;cursor:pointer}
-.banner img{width:100%;height:100%;object-fit:cover}
-.banner-placeholder{text-align:center;color:rgba(255,255,255,.7)}
-.banner-placeholder span{font-size:32px;display:block;margin-bottom:6px}
-.banner-placeholder p{font-size:13px}
-.banner-edit-hint{position:absolute;bottom:8px;right:10px;background:rgba(0,0,0,.4);color:#fff;font-size:11px;padding:3px 8px;border-radius:6px;font-family:var(--body)}
+/* ── TOPBAR ── */
+.topbar{background:#fff;padding:12px 16px;position:sticky;top:0;z-index:100;
+  border-bottom:1px solid var(--border);box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.topbar-inner{max-width:700px;margin:0 auto;display:flex;gap:10px;align-items:center}
+.search-inp{flex:1;border:1.5px solid var(--border);border-radius:12px;padding:10px 14px;
+  font-family:'Outfit',sans-serif;font-size:14px;outline:none;transition:border-color .2s;color:var(--text)}
+.search-inp:focus{border-color:var(--green)}
+.cart-fab{background:var(--green);color:#fff;border:none;border-radius:12px;
+  width:44px;height:44px;font-size:19px;cursor:pointer;position:relative;
+  display:flex;align-items:center;justify-content:center;transition:background .2s;flex-shrink:0}
+.cart-fab:hover{background:var(--green2)}
+.cart-dot{position:absolute;top:-5px;right:-5px;background:var(--red);color:#fff;border-radius:50%;
+  width:19px;height:19px;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center}
 
-/* ── SEARCH & TABS ── */
-.search-wrap{padding:12px 14px 0;background:#fff;border-bottom:1px solid var(--border)}
-.search-input{width:100%;padding:10px 14px;border:1.5px solid var(--border);border-radius:10px;font-size:14px;font-family:var(--body);background:#F8FAF9;color:#1a2e22;outline:none;transition:border .2s}
-.search-input:focus{border-color:var(--g2)}
-.tabs{display:flex;gap:0;overflow-x:auto;background:#fff;padding:0 10px;scrollbar-width:none}
-.tabs::-webkit-scrollbar{display:none}
-.tab{padding:11px 14px;font-size:13px;font-family:var(--body);cursor:pointer;border-bottom:2.5px solid transparent;white-space:nowrap;color:var(--gray);transition:color .2s,border-color .2s;display:flex;align-items:center;gap:5px}
-.tab.active{color:var(--g1);border-bottom-color:var(--g1);font-weight:500}
-.tab-count{background:var(--g3);color:var(--g1);font-size:10px;font-weight:600;padding:1px 5px;border-radius:10px}
+/* ── CATEGORY TABS ── */
+.cat-tabs{display:flex;gap:0;overflow-x:auto;background:#fff;border-bottom:2px solid var(--border);
+  scrollbar-width:none;position:sticky;top:68px;z-index:90}
+.cat-tabs::-webkit-scrollbar{display:none}
+.cat-tab{flex-shrink:0;padding:13px 18px;font-size:13px;font-weight:600;
+  border:none;background:none;cursor:pointer;color:var(--muted);border-bottom:3px solid transparent;
+  transition:all .2s;white-space:nowrap;margin-bottom:-2px}
+.cat-tab.active,.cat-tab:hover{color:var(--green);border-bottom-color:var(--green)}
+.cat-tab.active{color:var(--green)}
 
-/* ── PRODUCT GRID ── */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:12px;padding:14px;min-height:200px}
-.card{background:#fff;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:transform .15s,box-shadow .15s;cursor:pointer}
-.card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
-.card-img{height:130px;background:#F0F4F1;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
-.card-img img{width:100%;height:100%;object-fit:contain;padding:8px}
-.card-img-placeholder{display:flex;flex-direction:column;align-items:center;gap:6px;color:#aab8af;font-size:11px;font-family:var(--body);text-align:center;padding:8px}
-.card-img-placeholder span{font-size:36px}
-.card-cat-badge{position:absolute;top:6px;left:6px;background:var(--g1);color:#fff;font-size:9px;font-weight:600;padding:2px 7px;border-radius:8px;text-transform:uppercase;letter-spacing:.4px}
-.card-body{padding:10px 11px 11px}
-.card-name{font-size:13px;font-weight:600;color:#1a2e22;line-height:1.35;margin-bottom:4px;min-height:36px}
-.card-desc{font-size:11px;color:var(--gray);font-family:var(--body);line-height:1.4;margin-bottom:8px;min-height:30px}
-.card-price{font-size:16px;font-weight:700;color:var(--g1);margin-bottom:8px}
-.card-price small{font-size:11px;font-weight:400;color:var(--gray)}
-.btn-add{width:100%;background:var(--g1);color:#fff;border:none;border-radius:8px;padding:8px;font-size:13px;font-family:var(--font);font-weight:500;cursor:pointer;transition:background .2s}
-.btn-add:hover{background:var(--g2)}
-.btn-add.added{background:#27ae60}
-.empty-state{grid-column:1/-1;text-align:center;padding:3rem 1rem;color:var(--gray)}
-.empty-state span{font-size:48px;display:block;margin-bottom:10px}
+/* ── SECTION HEADER ── */
+.sec-header{padding:22px 16px 10px;display:flex;align-items:center;gap:10px;max-width:800px;margin:0 auto}
+.sec-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.sec-icon.green{background:var(--green3)}
+.sec-icon.blue{background:var(--blue3)}
+.sec-icon.purple{background:var(--purple3)}
+.sec-title{font-size:17px;font-weight:800;color:var(--dark)}
+.sec-count{margin-left:auto;font-size:11px;color:var(--muted);background:var(--green3);border-radius:20px;padding:3px 10px;font-weight:600}
 
-/* ── CART PANEL ── */
-.overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:200;backdrop-filter:blur(2px)}
-.overlay.open{display:block}
-.cart-panel{display:none;position:fixed;top:0;right:0;width:min(360px,100vw);height:100dvh;background:#fff;z-index:201;flex-direction:column;box-shadow:-4px 0 24px rgba(0,0,0,.12)}
-.cart-panel.open{display:flex}
-.cart-header{background:var(--g1);color:#fff;padding:16px;display:flex;align-items:center;justify-content:space-between}
-.cart-header h2{font-size:17px;font-weight:600}
-.cart-close{background:rgba(255,255,255,.2);border:none;color:#fff;width:32px;height:32px;border-radius:8px;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center}
-.cart-body{flex:1;overflow-y:auto;padding:12px}
-.cart-item{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid var(--border);align-items:flex-start}
-.ci-img{width:48px;height:48px;border-radius:8px;background:#F0F4F1;overflow:hidden;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:22px}
-.ci-img img{width:100%;height:100%;object-fit:contain}
-.ci-info{flex:1;min-width:0}
-.ci-name{font-size:13px;font-weight:600;color:#1a2e22;line-height:1.3}
-.ci-unit{font-size:11px;color:var(--gray);font-family:var(--body);margin-top:2px}
-.ci-qty{display:flex;align-items:center;gap:8px;margin-top:6px}
-.qty-btn{width:26px;height:26px;border:1px solid var(--border);border-radius:6px;background:none;cursor:pointer;font-size:15px;display:flex;align-items:center;justify-content:center;color:#1a2e22}
-.qty-btn:hover{background:var(--g3)}
-.qty-num{font-size:13px;font-weight:600;min-width:22px;text-align:center}
-.ci-del{background:none;border:none;cursor:pointer;color:#ccc;font-size:16px;padding:4px;flex-shrink:0}
-.ci-del:hover{color:var(--red)}
-.ci-subtotal{font-size:13px;font-weight:700;color:var(--g1);flex-shrink:0}
-.cart-empty{text-align:center;padding:3rem 1rem;color:var(--gray)}
-.cart-empty span{font-size:44px;display:block;margin-bottom:10px}
-.cart-footer{padding:14px;border-top:1px solid var(--border);background:#FAFCFB}
-.total-row{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
-.total-label{font-size:13px;color:var(--gray);font-family:var(--body)}
-.total-amount{font-size:22px;font-weight:700;color:var(--g1)}
-.client-form{display:flex;flex-direction:column;gap:8px;margin-bottom:12px}
-.client-form input{padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;font-size:13px;font-family:var(--body);background:#fff;outline:none}
-.client-form input:focus{border-color:var(--g2)}
-.btn-wa{width:100%;background:#25D366;color:#fff;border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:600;font-family:var(--font);cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:background .2s}
-.btn-wa:hover{background:#1ebe5b}
+/* ── GRID ── */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:11px;
+  padding:0 11px 11px;max-width:800px;margin:0 auto}
+@media(min-width:520px){.grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:700px){.grid{grid-template-columns:repeat(4,1fr)}}
 
-/* ── ADMIN PANEL ── */
-.admin-panel{display:none;position:fixed;inset:0;background:#fff;z-index:300;flex-direction:column;overflow:hidden}
-.admin-panel.open{display:flex}
-.admin-header{background:var(--g1);color:#fff;padding:14px 16px;display:flex;align-items:center;gap:12px}
-.admin-header h2{font-size:17px;font-weight:600;flex:1}
-.admin-close{background:rgba(255,255,255,.2);border:none;color:#fff;width:34px;height:34px;border-radius:8px;cursor:pointer;font-size:20px}
-.admin-tabs{display:flex;border-bottom:1px solid var(--border);background:#fff}
-.admin-tab{flex:1;padding:12px;text-align:center;font-size:14px;font-family:var(--body);cursor:pointer;border-bottom:2.5px solid transparent;color:var(--gray)}
-.admin-tab.active{color:var(--g1);border-bottom-color:var(--g1);font-weight:500}
-.admin-body{flex:1;overflow-y:auto;padding:14px;background:#F4F7F5}
-/* product list in admin */
-.admin-prod-list{display:flex;flex-direction:column;gap:8px}
-.admin-prod-item{background:#fff;border:1px solid var(--border);border-radius:12px;padding:10px 12px;display:flex;align-items:center;gap:10px}
-.api-thumb{width:46px;height:46px;border-radius:8px;background:#F0F4F1;overflow:hidden;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:22px;cursor:pointer;border:1.5px dashed #aab8af}
-.api-thumb img{width:100%;height:100%;object-fit:contain}
-.api-thumb-label{font-size:9px;color:#aab8af;text-align:center;line-height:1.2;padding:2px}
-.api-info{flex:1;min-width:0}
-.api-name{font-size:13px;font-weight:600;color:#1a2e22;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.api-cat{font-size:11px;color:var(--gray);font-family:var(--body)}
-.api-price{font-size:13px;font-weight:700;color:var(--g1)}
-.api-actions{display:flex;gap:6px;flex-shrink:0}
-.btn-edit-sm{background:var(--g3);border:none;border-radius:7px;color:var(--g1);width:30px;height:30px;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center}
-.btn-del-sm{background:var(--red-l);border:none;border-radius:7px;color:var(--red);width:30px;height:30px;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center}
-.btn-add-prod{width:100%;background:var(--g1);color:#fff;border:none;border-radius:12px;padding:13px;font-size:14px;font-weight:600;font-family:var(--font);cursor:pointer;margin-top:12px;display:flex;align-items:center;justify-content:center;gap:8px}
-/* category list */
-.cat-list{display:flex;flex-direction:column;gap:8px}
-.cat-item{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px 14px;display:flex;align-items:center;gap:10px}
-.cat-emoji{font-size:24px;cursor:pointer}
-.cat-name{flex:1;font-size:14px;font-weight:500}
-.cat-prod-count{font-size:11px;color:var(--gray);font-family:var(--body)}
+/* ── CARD ── */
+.card{background:#fff;border-radius:var(--radius);overflow:hidden;
+  box-shadow:var(--shadow);border:1px solid var(--border);
+  display:flex;flex-direction:column;cursor:pointer;
+  transition:box-shadow .25s,transform .25s;
+  animation:fadeUp .35s ease both}
+.card:hover{box-shadow:var(--shadow-hover);transform:translateY(-3px)}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
 
-/* ── MODAL (producto / categoría) ── */
-.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:400;align-items:flex-end;justify-content:center}
-.modal-overlay.open{display:flex}
-.modal{background:#fff;width:min(480px,100vw);border-radius:20px 20px 0 0;padding:20px 18px 28px;max-height:90dvh;overflow-y:auto}
-.modal-title{font-size:17px;font-weight:700;margin-bottom:16px;color:#1a2e22;display:flex;align-items:center;justify-content:space-between}
-.modal-close{background:none;border:none;font-size:22px;cursor:pointer;color:var(--gray);line-height:1}
-.form-group{margin-bottom:13px}
-.form-label{font-size:12px;font-weight:600;color:var(--gray);font-family:var(--body);margin-bottom:5px;display:block;text-transform:uppercase;letter-spacing:.4px}
-.form-input{width:100%;padding:11px 13px;border:1.5px solid var(--border);border-radius:10px;font-size:14px;font-family:var(--body);color:#1a2e22;outline:none;transition:border .2s}
-.form-input:focus{border-color:var(--g2)}
-.form-textarea{min-height:70px;resize:vertical}
-.form-select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M6 8 0 0h12z' fill='%236c757d'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center}
-/* image upload area */
-.img-upload-area{border:2px dashed #aab8af;border-radius:12px;padding:20px;text-align:center;cursor:pointer;transition:border-color .2s;background:#F8FAF9;position:relative;overflow:hidden}
-.img-upload-area:hover{border-color:var(--g2)}
-.img-upload-area img{width:100%;max-height:160px;object-fit:contain;border-radius:8px}
-.img-upload-area .placeholder{color:#aab8af}
-.img-upload-area .placeholder span{font-size:36px;display:block;margin-bottom:6px}
-.img-upload-area .placeholder p{font-size:13px;font-family:var(--body)}
-.img-upload-area input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
-.btn-save{width:100%;background:var(--g1);color:#fff;border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:600;font-family:var(--font);cursor:pointer;margin-top:4px;transition:background .2s}
-.btn-save:hover{background:var(--g2)}
-.btn-row{display:flex;gap:8px;margin-top:4px}
-.btn-cancel{flex:1;background:#F0F4F1;color:#1a2e22;border:none;border-radius:12px;padding:14px;font-size:15px;font-weight:500;font-family:var(--font);cursor:pointer}
+.card-img-wrap{position:relative;background:var(--green3);padding-top:100%;overflow:hidden}
+.card-img-wrap img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.card:hover .card-img-wrap img{transform:scale(1.05)}
+.cat-tag{position:absolute;top:7px;left:7px;border-radius:6px;padding:2px 7px;
+  font-size:9px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;color:#fff}
+.cat-tag.hogar{background:var(--green)}
+.cat-tag.nutricion{background:var(--blue)}
+.cat-tag.personal{background:var(--purple)}
 
-/* ── ADMIN LOGIN ── */
-.login-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:350;align-items:center;justify-content:center}
-.login-overlay.open{display:flex}
-.login-box{background:#fff;border-radius:20px;padding:28px 24px;width:min(340px,90vw);text-align:center}
-.login-box h3{font-size:18px;font-weight:700;margin-bottom:6px}
-.login-box p{font-size:13px;color:var(--gray);font-family:var(--body);margin-bottom:18px}
-.login-input{width:100%;padding:12px;border:1.5px solid var(--border);border-radius:10px;font-size:15px;text-align:center;letter-spacing:4px;outline:none;font-family:var(--font);margin-bottom:12px}
-.login-input:focus{border-color:var(--g1)}
-.btn-login{width:100%;background:var(--g1);color:#fff;border:none;border-radius:12px;padding:13px;font-size:15px;font-weight:600;font-family:var(--font);cursor:pointer}
-.login-error{color:var(--red);font-size:12px;font-family:var(--body);margin-top:-6px;margin-bottom:8px;display:none}
+.card-body{padding:10px;flex:1;display:flex;flex-direction:column;gap:3px}
+.card-name{font-size:11.5px;font-weight:700;color:var(--dark);line-height:1.35;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card-detail{font-size:10px;color:var(--muted)}
+.card-code{font-size:9.5px;color:var(--green);font-weight:600;font-family:monospace}
+
+.card-footer{padding:0 10px 10px;display:flex;align-items:center;justify-content:space-between;gap:6px}
+.card-price{display:flex;flex-direction:column}
+.card-price .lbl{font-size:9px;color:var(--muted);line-height:1}
+.card-price .val{font-size:15px;font-weight:800;color:var(--green)}
+.add-btn{width:32px;height:32px;border-radius:9px;border:none;background:var(--green);
+  color:#fff;font-size:19px;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;transition:background .15s,transform .1s}
+.add-btn:hover{background:var(--green2)}
+.add-btn:active{transform:scale(.9)}
+.add-btn.added{background:var(--dark);font-size:13px}
+
+/* ── CART OVERLAY ── */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:200;
+  opacity:0;pointer-events:none;transition:opacity .3s}
+.overlay.open{opacity:1;pointer-events:all}
+.drawer{position:fixed;bottom:0;left:0;right:0;background:#fff;border-radius:20px 20px 0 0;
+  z-index:201;max-height:82vh;display:flex;flex-direction:column;
+  transform:translateY(100%);transition:transform .35s cubic-bezier(.4,0,.2,1)}
+.drawer.open{transform:translateY(0)}
+.drawer-handle{width:38px;height:4px;background:var(--border);border-radius:2px;margin:10px auto 0}
+.drawer-hdr{padding:14px 18px;border-bottom:1px solid var(--border);
+  display:flex;justify-content:space-between;align-items:center}
+.drawer-hdr h3{font-size:15px;font-weight:800}
+.close-btn{background:var(--green3);border:none;border-radius:8px;
+  width:30px;height:30px;cursor:pointer;font-size:15px;
+  display:flex;align-items:center;justify-content:center;color:var(--green)}
+.drawer-items{overflow-y:auto;flex:1;padding:10px 16px}
+.di{display:flex;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid var(--border)}
+.di:last-child{border-bottom:none}
+.di-img{width:48px;height:48px;border-radius:8px;object-fit:cover;background:var(--green3);flex-shrink:0}
+.di-info{flex:1;min-width:0}
+.di-name{font-size:11.5px;font-weight:700;color:var(--dark);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.di-price{font-size:13px;font-weight:800;color:var(--green);margin-top:2px}
+.di-ctrl{display:flex;align-items:center;gap:7px;flex-shrink:0}
+.qty-btn{width:26px;height:26px;border:1.5px solid var(--border);background:#fff;
+  border-radius:7px;cursor:pointer;font-size:15px;font-weight:700;
+  display:flex;align-items:center;justify-content:center;transition:border-color .15s}
+.qty-btn:hover{border-color:var(--green);color:var(--green)}
+.qty-num{font-size:13px;font-weight:700;min-width:18px;text-align:center}
+.drawer-footer{padding:14px 18px 24px;border-top:1px solid var(--border)}
+.total-row{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:13px}
+.total-row .lbl{font-size:13px;color:var(--muted)}
+.total-row .amt{font-size:24px;font-weight:900;color:var(--dark)}
+.wa-btn{width:100%;background:#25D366;color:#fff;border:none;border-radius:14px;
+  padding:14px;font-family:'Outfit',sans-serif;font-size:15px;font-weight:700;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;gap:9px;transition:background .2s}
+.wa-btn:hover{background:#1ebe5d}
+.empty-cart{text-align:center;padding:40px 20px;color:var(--muted)}
+.empty-cart .ico{font-size:48px;margin-bottom:10px}
+
+/* ── HIDDEN ── */
+.hidden{display:none!important}
 
 /* ── FOOTER ── */
-.footer{text-align:center;padding:1.5rem;font-size:11px;color:var(--gray);font-family:var(--body);border-top:1px solid var(--border);background:#fff;margin-top:8px}
-
-/* ── TOAST ── */
-.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#1a2e22;color:#fff;padding:10px 20px;border-radius:30px;font-size:13px;font-family:var(--body);z-index:500;transition:transform .3s;white-space:nowrap}
-.toast.show{transform:translateX(-50%) translateY(0)}
-
-@media(max-width:400px){
-  .grid{grid-template-columns:repeat(2,1fr);gap:8px;padding:10px}
-  .card-img{height:110px}
-}
+footer{background:var(--dark);color:rgba(255,255,255,.4);text-align:center;
+  padding:18px 20px;font-size:10.5px;margin-top:40px;line-height:1.8}
+footer strong{color:rgba(255,255,255,.75)}
 </style>
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="header">
-  <div class="header-inner">
-    <div class="logo-circle" id="logoCircle" onclick="handleLogoClick()" title="Toca para cambiar logo">
-      <div class="logo-placeholder" id="logoPlaceholder">MI<br>WOW</div>
-      <img id="logoImg" src="" alt="Logo" style="display:none">
-    </div>
-    <div class="header-info">
-      <h1>MI TIENDA WOW</h1>
-      <p>Distribuidor Amway Independiente</p>
-    </div>
-    <div class="header-actions">
-      <button class="btn-icon" onclick="showAdminLogin()" title="Administrar" id="adminBtn">⚙️</button>
-      <button class="btn-icon" onclick="toggleCart()" title="Carrito">
-        🛒<span class="cart-badge" id="cartBadge">0</span>
-      </button>
-    </div>
+<div class="hero">
+  <div class="hero-eyebrow">🌿 Amway Colombia · Empresario Independiente</div>
+  <h1>MI TIENDA <em>WOW</em></h1>
+  <p class="hero-sub">Productos oficiales Amway · Catálogo Colombia 2026 · Precios reales</p>
+  <div class="hero-badges">
+    <div class="badge">🏠 Hogar</div>
+    <div class="badge">💊 Nutrición</div>
+    <div class="badge">✨ Personal</div>
+    <div class="badge">🇨🇴 Colombia 2026</div>
   </div>
-  <!-- Banner -->
-  <div class="banner" id="bannerArea" onclick="handleBannerClick()" title="Toca para cambiar imagen">
-    <div class="banner-placeholder" id="bannerPlaceholder">
-      <span>🌿</span>
-      <p>Toca aquí para agregar imagen de banner</p>
-    </div>
-    <img id="bannerImg" src="" alt="Banner" style="display:none;width:100%;height:100%;object-fit:cover">
-    <div class="banner-edit-hint" id="bannerHint" style="display:none">✏️ Cambiar imagen</div>
-  </div>
-</header>
-
-<!-- SEARCH & TABS -->
-<div class="search-wrap">
-  <input class="search-input" id="searchInput" type="text" placeholder="🔍  Buscar producto..." oninput="renderCatalog()">
 </div>
-<div class="tabs" id="tabsContainer"></div>
 
-<!-- PRODUCT GRID -->
-<div class="grid" id="productGrid"></div>
+<div class="topbar">
+  <div class="topbar-inner">
+    <input class="search-inp" type="text" placeholder="🔍 Buscar producto o código..." id="searchInp" oninput="filter()">
+    <button class="cart-fab" onclick="toggleCart()">🛒<span class="cart-dot" id="cartDot">0</span></button>
+  </div>
+</div>
 
-<!-- FOOTER -->
-<footer class="footer">
-  Desarrollada por <strong>Vibras Positivas HM</strong> — Derechos de Autor Reservados
+<div class="cat-tabs" id="catTabs">
+  <button class="cat-tab active" onclick="setCat('all',this)">🛍 Todo</button>
+  <button class="cat-tab" onclick="setCat('hogar',this)">🏠 Hogar</button>
+  <button class="cat-tab" onclick="setCat('nutricion',this)">💊 Nutrición</button>
+  <button class="cat-tab" onclick="setCat('personal',this)">✨ Personal</button>
+</div>
+
+<div id="main"></div>
+
+<div class="overlay" id="overlay" onclick="toggleCart()"></div>
+<div class="drawer" id="drawer">
+  <div class="drawer-handle"></div>
+  <div class="drawer-hdr">
+    <h3>🛒 Mi pedido</h3>
+    <button class="close-btn" onclick="toggleCart()">✕</button>
+  </div>
+  <div class="drawer-items" id="drawerItems"></div>
+  <div class="drawer-footer" id="drawerFooter"></div>
+</div>
+
+<footer>
+  <strong>Desarrollada por Vibras Positivas HM</strong> — Derechos de Autor Reservados<br>
+  Precios del Catálogo Oficial Amway Colombia 2026 · Imágenes © Amway
 </footer>
 
-<!-- OVERLAY -->
-<div class="overlay" id="overlay" onclick="closeAllPanels()"></div>
-
-<!-- TOAST -->
-<div class="toast" id="toast"></div>
-
-<!-- ══════════ CART PANEL ══════════ -->
-<div class="cart-panel" id="cartPanel">
-  <div class="cart-header">
-    <h2>🛒 Tu Pedido</h2>
-    <button class="cart-close" onclick="toggleCart()">✕</button>
-  </div>
-  <div class="cart-body" id="cartBody"></div>
-  <div class="cart-footer">
-    <div class="total-row">
-      <span class="total-label">Total estimado</span>
-      <span class="total-amount" id="cartTotal">$0</span>
-    </div>
-    <div class="client-form">
-      <input type="text" id="clientName" placeholder="👤 Tu nombre completo" class="form-input">
-      <input type="text" id="clientPhone" placeholder="📱 Tu WhatsApp (opcional)">
-      <input type="text" id="clientCity" placeholder="📍 Ciudad / barrio">
-    </div>
-    <button class="btn-wa" onclick="sendWhatsApp()">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-      Enviar pedido por WhatsApp
-    </button>
-  </div>
-</div>
-
-<!-- ══════════ ADMIN LOGIN ══════════ -->
-<div class="login-overlay" id="loginOverlay">
-  <div class="login-box">
-    <div style="font-size:40px;margin-bottom:8px">🔐</div>
-    <h3>Administrador</h3>
-    <p>Ingresa el PIN para gestionar productos</p>
-    <input type="password" class="login-input" id="loginPin" placeholder="••••" maxlength="6" onkeydown="if(event.key==='Enter')doLogin()">
-    <p class="login-error" id="loginError">PIN incorrecto. Intenta de nuevo.</p>
-    <button class="btn-login" onclick="doLogin()">Entrar</button>
-    <button onclick="closeLogin()" style="margin-top:10px;width:100%;background:none;border:none;color:var(--gray);font-size:13px;cursor:pointer;font-family:var(--body)">Cancelar</button>
-  </div>
-</div>
-
-<!-- ══════════ ADMIN PANEL ══════════ -->
-<div class="admin-panel" id="adminPanel">
-  <div class="admin-header">
-    <span style="font-size:22px">⚙️</span>
-    <h2>Administrar Tienda</h2>
-    <button class="admin-close" onclick="closeAdmin()">✕</button>
-  </div>
-  <div class="admin-tabs">
-    <div class="admin-tab active" onclick="switchAdminTab('products',this)">📦 Productos</div>
-    <div class="admin-tab" onclick="switchAdminTab('cats',this)">🏷️ Categorías</div>
-    <div class="admin-tab" onclick="switchAdminTab('config',this)">🖼️ Tienda</div>
-  </div>
-  <div class="admin-body">
-    <!-- Products tab -->
-    <div id="adminProducts">
-      <div class="admin-prod-list" id="adminProdList"></div>
-      <button class="btn-add-prod" onclick="openProductModal(null)">➕ Agregar nuevo producto</button>
-    </div>
-    <!-- Categories tab -->
-    <div id="adminCats" style="display:none">
-      <div class="cat-list" id="adminCatList"></div>
-      <button class="btn-add-prod" style="margin-top:12px" onclick="openCatModal(null)">➕ Agregar categoría</button>
-    </div>
-    <!-- Config tab -->
-    <div id="adminConfig" style="display:none">
-      <div style="background:#fff;border-radius:14px;padding:16px;border:1px solid var(--border)">
-        <p style="font-size:13px;color:var(--gray);font-family:var(--body);margin-bottom:12px">Imagen de banner principal</p>
-        <div class="img-upload-area" style="margin-bottom:16px" onclick="document.getElementById('bannerUploadAdmin').click()">
-          <div class="placeholder" id="bannerPreviewAdmin"><span>🖼️</span><p>Subir imagen de banner (recomendado 1200×300px)</p></div>
-          <input type="file" id="bannerUploadAdmin" accept="image/*" onchange="handleBannerUpload(this)" style="position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%">
-        </div>
-        <p style="font-size:13px;color:var(--gray);font-family:var(--body);margin-bottom:12px">Logo de la tienda</p>
-        <div class="img-upload-area" onclick="document.getElementById('logoUploadAdmin').click()">
-          <div class="placeholder" id="logoPreviewAdmin"><span>🏪</span><p>Subir logo (cuadrado, 200×200px recomendado)</p></div>
-          <input type="file" id="logoUploadAdmin" accept="image/*" onchange="handleLogoUpload(this)" style="position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%">
-        </div>
-        <div style="margin-top:16px">
-          <label class="form-label">PIN de administrador (actual: 1234)</label>
-          <input type="password" id="newPin" placeholder="Nuevo PIN (4-6 dígitos)" class="form-input" maxlength="6">
-          <button class="btn-save" style="margin-top:8px" onclick="changePin()">Guardar nuevo PIN</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════ PRODUCT MODAL ══════════ -->
-<div class="modal-overlay" id="productModal">
-  <div class="modal">
-    <div class="modal-title">
-      <span id="productModalTitle">Nuevo Producto</span>
-      <button class="modal-close" onclick="closeProductModal()">✕</button>
-    </div>
-    <div class="form-group">
-      <label class="form-label">Foto del producto</label>
-      <div class="img-upload-area" id="productImgArea" onclick="document.getElementById('productImgInput').click()">
-        <div class="placeholder" id="productImgPlaceholder">
-          <span>📷</span>
-          <p>Toca para subir foto<br><small>JPG, PNG, WebP — máx 5MB</small></p>
-        </div>
-        <img id="productImgPreview" src="" alt="" style="display:none;width:100%;max-height:160px;object-fit:contain;border-radius:8px">
-        <input type="file" id="productImgInput" accept="image/*" onchange="handleProductImg(this)" style="position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%">
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="form-label">Nombre del producto *</label>
-      <input type="text" class="form-input" id="prodName" placeholder="Ej: Nutrilite Double X">
-    </div>
-    <div class="form-group">
-      <label class="form-label">Descripción corta</label>
-      <textarea class="form-input form-textarea" id="prodDesc" placeholder="Beneficios principales del producto..."></textarea>
-    </div>
-    <div class="form-group">
-      <label class="form-label">Categoría *</label>
-      <select class="form-input form-select" id="prodCat"></select>
-    </div>
-    <div class="form-group">
-      <label class="form-label">Precio (COP) *</label>
-      <input type="number" class="form-input" id="prodPrice" placeholder="89000" min="0">
-    </div>
-    <div class="form-group">
-      <label class="form-label">Código de referencia</label>
-      <input type="text" class="form-input" id="prodCode" placeholder="Ej: NUT-001">
-    </div>
-    <div class="btn-row">
-      <button class="btn-cancel" onclick="closeProductModal()">Cancelar</button>
-      <button class="btn-save" style="flex:2" onclick="saveProduct()">💾 Guardar producto</button>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════ CATEGORY MODAL ══════════ -->
-<div class="modal-overlay" id="catModal">
-  <div class="modal">
-    <div class="modal-title">
-      <span id="catModalTitle">Nueva Categoría</span>
-      <button class="modal-close" onclick="closeCatModal()">✕</button>
-    </div>
-    <div class="form-group">
-      <label class="form-label">Ícono (emoji)</label>
-      <input type="text" class="form-input" id="catEmoji" placeholder="🌿" maxlength="4" style="font-size:24px;text-align:center">
-    </div>
-    <div class="form-group">
-      <label class="form-label">Nombre de la categoría *</label>
-      <input type="text" class="form-input" id="catName" placeholder="Ej: Nutrición">
-    </div>
-    <div class="btn-row">
-      <button class="btn-cancel" onclick="closeCatModal()">Cancelar</button>
-      <button class="btn-save" style="flex:2" onclick="saveCat()">💾 Guardar</button>
-    </div>
-  </div>
-</div>
-
-<!-- hidden file inputs for logo/banner from header -->
-<input type="file" id="logoFileInput" accept="image/*" onchange="handleLogoUpload(this)" style="display:none">
-<input type="file" id="bannerFileInput" accept="image/*" onchange="handleBannerUpload(this)" style="display:none">
-
 <script>
-/* ═══════════════════════════════════════
-   DATA STORE — localStorage
-═══════════════════════════════════════ */
-const STORE_KEY = 'mtiendawow_v1';
-const ADMIN_PIN_KEY = 'mtiendawow_pin';
+const CDN = 'https://cdn.contentstack.io/v3/assets/blt61e661dff490fa0d/';
 
-function loadStore(){
-  try{ return JSON.parse(localStorage.getItem(STORE_KEY))||defaultStore(); }
-  catch(e){ return defaultStore(); }
-}
-function saveStore(s){ localStorage.setItem(STORE_KEY, JSON.stringify(s)); }
-function getPin(){ return localStorage.getItem(ADMIN_PIN_KEY)||'1234'; }
-function setPin(p){ localStorage.setItem(ADMIN_PIN_KEY, p); }
+const PRODUCTS = [
+  // ── HOGAR · LAVANDERÍA ──
+  { id:1, cat:'hogar', sub:'Lavandería',
+    img: CDN+'blt6bca6d6e0f06fbb6/67eba6f7d75e752692d45a29/112532_01.jpg',
+    name:'SA8™ Detergente Líquido Concentrado para Ropa', detail:'1 Litro', code:'112532', price:94400,
+    url:'https://www.amway.com.co/product/sa8-detergente-liquido-concentrado-para-ropa/112532S' },
+  { id:2, cat:'hogar', sub:'Lavandería',
+    img: CDN+'bltb127c23d0212c95a/67eba6b5d1debb9d66bdd1ec/109849_01.jpg',
+    name:'SA8™ Premium Detergente en Polvo Concentrado', detail:'3 Kg', code:'109849', price:165050,
+    url:'https://www.amway.com.co/product/sa8-premium-detergente-en-polvo-concentrado/109849S' },
+  { id:3, cat:'hogar', sub:'Lavandería',
+    img: CDN+'bltd480813d45cce1c8/67eba6d350d7530f632ea5cb/110480_01.jpg',
+    name:'SA8™ Suavizante Concentrado para Ropa', detail:'1 Litro', code:'110480', price:60050,
+    url:'https://www.amway.com.co/product/sa8-suavizante-concentrado-para-ropa/110480S' },
+  { id:4, cat:'hogar', sub:'Lavandería',
+    img: CDN+'blt3df116de8da55102/67eba6c9987ec65d695c60a3/110403_01.jpg',
+    name:'SA8™ Aerosol Prelavado Quita Manchas', detail:'400 ml', code:'110403', price:62800,
+    url:'https://www.amway.com.co/product/sa8-aerosol-para-prelavado-quita-manchas/110403S' },
+  { id:5, cat:'hogar', sub:'Lavandería',
+    img: CDN+'blt6f54e6ad685eef44/67eba701d75e753ddbd45a2d/124485_01.jpg',
+    name:'SA8™ Blanqueador para Múltiples Telas', detail:'1 Kg', code:'124485', price:83200,
+    url:'https://www.amway.com.co/product/SA8-Blanqueador-para-M%C3%BAltiples-Telas/124485' },
+  // ── HOGAR · SUPERFICIES ──
+  { id:6, cat:'hogar', sub:'Superficies',
+    img: CDN+'blt1f54013c2e5ea035/67ddb044986725ca1f888d1c/0001_01.jpg',
+    name:'L.O.C.™ Concentrado Multiusos', detail:'1 Litro', code:'E0001', price:61050,
+    url:'https://www.amway.com.co/product/loc-limpiador-concentrado-multiusos/E0001S' },
+  { id:7, cat:'hogar', sub:'Superficies',
+    img: CDN+'blt623e5cdbbb51fdaf/67eba70cb5cf1e3006038da8/3878_01.jpg',
+    name:'Pursue™ Limpiador Desinfectante', detail:'1 Litro', code:'E3878', price:68900,
+    url:'https://www.amway.com.co/product/limpiador-desinfectante/E3878S' },
+  { id:8, cat:'hogar', sub:'Superficies',
+    img: CDN+'blta603735dda708d04/67eba6c4dc637697e9ca8d3f/109861_01.jpg',
+    name:'L.O.C.™ Limpiador Concentrado para Baños', detail:'500 ml', code:'109861', price:49950,
+    url:'https://www.amway.com.co/product/loc-limpiador-concentrado-para-banos/109861S' },
+  { id:9, cat:'hogar', sub:'Superficies',
+    img: CDN+'blte1c3095fd1df8b18/67eba6bfd1debb4c48bdd1f0/109857_01.jpg',
+    name:'L.O.C.™ Limpiador Concentrado para Cocina', detail:'500 ml', code:'109857', price:49950,
+    url:'https://www.amway.com.co/product/LOC-Limpiador-Concentrado-para-Cocina/109857S' },
+  // ── HOGAR · COCINA ──
+  { id:10, cat:'hogar', sub:'Cocina',
+    img: CDN+'blt7c95b707d7d26bf5/67eba6e341546b775a4a6540/110488_01.jpg',
+    name:'DishDrops™ Lavaplatos Líquido Concentrado', detail:'1 Litro', code:'110488', price:83859,
+    url:'https://www.amway.com.co/product/dish-drops-lavaplatos-liquido-concentrado/110488S' },
+  { id:11, cat:'hogar', sub:'Cocina',
+    img: CDN+'blt089d565918ac53c2/67eba6dcd75e750118d45a25/110490_01.jpg',
+    name:'DishDrops™ ScrubBuds™ Esponjas Acero Inox.', detail:'4 esponjas', code:'110490', price:36400,
+    url:'https://www.amway.com.co/product/dish-drops-scrub-buds-esponja-de-fibra-acero-inoxidable/110490S' },
+  // ── NUTRICIÓN ──
+  { id:12, cat:'nutricion', sub:'Nutrilite',
+    img: CDN+'bltc6c347719bf4a05b/69d51ea56b25e692c660b892/110415_CO.png',
+    name:'Proteína Vegetal Nutrilite™', detail:'500 g', code:'110415CO', price:0,
+    url:'https://www.amway.com.co/product/proteina-vegetal/110415CO' },
+  { id:13, cat:'nutricion', sub:'Nutrilite',
+    img: CDN+'blt1e3e1f4d32f24426/67ecf8b346c6e930898406f6/8914_01.jpg',
+    name:'Omega 3 Plus 90 Cápsulas', detail:'90 cápsulas blandas', code:'A8914CO', price:0,
+    url:'https://www.amway.com.co/product/omega-3-plus/A8914CO' },
+  { id:14, cat:'nutricion', sub:'Nutrilite',
+    img: CDN+'bltc510296526fe494b/67e4c5442834a604d240a162/117549_01.jpg',
+    name:'Daily Plus 90 Tabletas Nutrilite™', detail:'90 tabletas', code:'117549CO', price:0,
+    url:'https://www.amway.com.co/product/daily-plus/117549CO' },
+  { id:15, cat:'nutricion', sub:'Nutrilite',
+    img: CDN+'bltf922188865482f3f/67e4c50f043faa5545d0340c/100566_01.jpg',
+    name:'Herbals Ajo Nutrilite™', detail:'60 tabletas', code:'100566CO', price:0,
+    url:'https://www.amway.com.co/product/herbals-ajo/100566CO' },
+  // ── PERSONAL CARE ──
+  { id:16, cat:'personal', sub:'Glister™ Higiene Bucal',
+    img: CDN+'blt6dcf912af8c074d2/67eba79ffe3460725d12f662/124108_01.jpg',
+    name:'Enjuague Bucal Multiacción Glister™', detail:'500 ml', code:'124108SP', price:0,
+    url:'https://www.amway.com.co/product/enjuague-bucal-multiaccion/124108SP' },
+  { id:17, cat:'personal', sub:'Glister™ Higiene Bucal',
+    img: CDN+'blt333a2fe35df0bc31/67eba77cd75e750118d45a3b/124106_01.jpg',
+    name:'Pasta de Dientes Multiacción con Fluoruro', detail:'200 g', code:'124106SP', price:0,
+    url:'https://www.amway.com.co/product/pasta-de-dientes-multiaccion-con-fluoruro/124106SP' },
+  { id:18, cat:'personal', sub:'Glister™ Higiene Bucal',
+    img:'https://www.amway.com.co/assets/amshop/v3/assets/blt61e661dff490fa0d/bltc14942575b58cfe4/67eba7befe34600ed412f666/124111_01.jpg',
+    name:'Refrescante Bucal en Spray Glister™', detail:'14 ml', code:'124111SP', price:0,
+    url:'https://www.amway.com.co/product/refrescante-bucal-en-spray/124111SP' },
+  { id:19, cat:'personal', sub:'g&h™ Cuidado Personal',
+    img: CDN+'bltd1e9f9a1d67fb2a6/67eba7b3d75e755588d45a36/125896_01.jpg',
+    name:'Desodorante y Antitranspirante Roll-On g&h™', detail:'100 ml', code:'125896SP', price:0,
+    url:'https://www.amway.com.co/product/desodorante-y-antitranspirante-roll-on/125896SP' },
+];
 
-function defaultStore(){
-  return {
-    categories:[
-      {id:'c1', name:'Nutrición', emoji:'🌿'},
-      {id:'c2', name:'Belleza', emoji:'✨'},
-      {id:'c3', name:'Hogar', emoji:'🏡'},
-      {id:'c4', name:'eSpring', emoji:'💧'},
-    ],
-    products:[
-      {id:'p1',name:'Nutrilite Double X',desc:'Multivitamínico premium con 12 vitaminas, 10 minerales y 22 concentrados de plantas',cat:'c1',price:189000,img:'',code:'NUT-001'},
-      {id:'p2',name:'Nutrilite Proteína',desc:'Proteína de soya certificada — sabor neutro',cat:'c1',price:145000,img:'',code:'NUT-002'},
-      {id:'p3',name:'Artistry Hydra-V',desc:'Hidratación profunda 72h con ácido hialurónico',cat:'c2',price:168000,img:'',code:'ART-001'},
-      {id:'p4',name:'SA8 Detergente Bio',desc:'Detergente concentrado biodegradable con enzimas naturales',cat:'c3',price:89000,img:'',code:'HOG-001'},
-    ],
-    banner:'', logo:''
-  };
-}
+const CAT_COLOR = { hogar:'green', nutricion:'blue', personal:'purple' };
+const CAT_ICON  = { hogar:'🏠', nutricion:'💊', personal:'✨' };
+const CAT_LABEL = { hogar:'Hogar', nutricion:'Nutrición', personal:'Cuidado Personal' };
 
-let store = loadStore();
 let cart = {};
-let editingProductId = null;
-let editingCatId = null;
-let isAdmin = false;
-
-/* ═══════════════════════════════════════
-   CATALOG RENDER
-═══════════════════════════════════════ */
 let activeCat = 'all';
+let searchQ = '';
 
-function renderTabs(){
-  const tabs = document.getElementById('tabsContainer');
-  const counts = {};
-  store.products.forEach(p=>{ counts[p.cat]=(counts[p.cat]||0)+1; });
-  const total = store.products.length;
-  let html = `<div class="tab ${activeCat==='all'?'active':''}" onclick="setTab('all',this)">Todos <span class="tab-count">${total}</span></div>`;
-  store.categories.forEach(c=>{
-    const n = counts[c.id]||0;
-    html += `<div class="tab ${activeCat===c.id?'active':''}" onclick="setTab('${c.id}',this)">${c.emoji} ${c.name} <span class="tab-count">${n}</span></div>`;
-  });
-  tabs.innerHTML = html;
-}
+function fmt(n){ return n ? '$'+n.toLocaleString('es-CO') : 'Consultar precio'; }
 
-function setTab(id, el){
-  activeCat = id;
-  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-  el.classList.add('active');
-  renderCatalog();
-}
+function renderMain(){
+  const main = document.getElementById('main');
+  main.innerHTML = '';
 
-function renderCatalog(){
-  const q = document.getElementById('searchInput').value.toLowerCase().trim();
-  let list = store.products.filter(p=>{
-    const matchCat = activeCat==='all' || p.cat===activeCat;
-    const matchQ = !q || p.name.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q) || (p.code||'').toLowerCase().includes(q);
+  const filtered = PRODUCTS.filter(p => {
+    const matchCat = activeCat === 'all' || p.cat === activeCat;
+    const q = searchQ.toLowerCase();
+    const matchQ = !q || p.name.toLowerCase().includes(q) || p.code.toLowerCase().includes(q) || p.sub.toLowerCase().includes(q);
     return matchCat && matchQ;
   });
-  const grid = document.getElementById('productGrid');
-  if(!list.length){
-    grid.innerHTML='<div class="empty-state"><span>🔍</span><p>No se encontraron productos</p></div>';
+
+  if(!filtered.length){
+    main.innerHTML='<div style="text-align:center;padding:60px 20px;color:var(--muted);font-size:14px">😕 Sin resultados para "'+searchQ+'"</div>';
     return;
   }
-  const cat = Object.fromEntries(store.categories.map(c=>[c.id,c]));
-  grid.innerHTML = list.map(p=>{
-    const c = cat[p.cat]||{};
-    const imgHtml = p.img
-      ? `<img src="${p.img}" alt="${p.name}" onerror="this.style.display='none'">`
-      : `<div class="card-img-placeholder"><span>${c.emoji||'📦'}</span><p>Sin foto</p></div>`;
-    return `<div class="card">
-      <div class="card-img">
-        ${imgHtml}
-        <div class="card-cat-badge">${c.emoji||''} ${c.name||''}</div>
-      </div>
-      <div class="card-body">
-        <div class="card-name">${p.name}</div>
-        <div class="card-desc">${p.desc||'—'}</div>
-        <div class="card-price">${fmt(p.price)} <small>COP</small></div>
-        <button class="btn-add" id="addbtn-${p.id}" onclick="addToCart('${p.id}')">+ Agregar</button>
-      </div>
-    </div>`;
-  }).join('');
+
+  const cats = activeCat === 'all' ? ['hogar','nutricion','personal'] : [activeCat];
+
+  cats.forEach(cat => {
+    const subs = [...new Set(filtered.filter(p=>p.cat===cat).map(p=>p.sub))];
+    if(!subs.length) return;
+
+    subs.forEach((sub,si) => {
+      const items = filtered.filter(p=>p.cat===cat && p.sub===sub);
+      if(!items.length) return;
+
+      const sec = document.createElement('div');
+      const color = CAT_COLOR[cat];
+      sec.innerHTML = `
+        <div class="sec-header">
+          <div class="sec-icon ${color}">${CAT_ICON[cat]}</div>
+          <div class="sec-title">${sub}</div>
+          <div class="sec-count">${items.length}</div>
+        </div>`;
+
+      const grid = document.createElement('div');
+      grid.className = 'grid';
+
+      items.forEach((p,i) => {
+        const inCart = cart[p.id]?.qty > 0;
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.style.animationDelay = (si*0.04 + i*0.04).toFixed(2)+'s';
+        card.innerHTML = `
+          <div class="card-img-wrap">
+            <img src="${p.img}" alt="${p.name}" loading="lazy" onerror="this.style.display='none'">
+            <span class="cat-tag ${cat}">${CAT_LABEL[cat]}</span>
+          </div>
+          <div class="card-body">
+            <div class="card-name">${p.name}</div>
+            <div class="card-detail">${p.detail}</div>
+            <div class="card-code">#${p.code}</div>
+          </div>
+          <div class="card-footer">
+            <div class="card-price">
+              <span class="lbl">Precio</span>
+              <span class="val">${fmt(p.price)}</span>
+            </div>
+            <button class="add-btn ${inCart?'added':''}" id="btn-${p.id}" onclick="addToCart(${p.id},event)">
+              ${inCart?'✓':'+'}
+            </button>
+          </div>`;
+        grid.appendChild(card);
+      });
+
+      sec.appendChild(grid);
+      main.appendChild(sec);
+    });
+  });
 }
 
-/* ═══════════════════════════════════════
-   CART
-═══════════════════════════════════════ */
-function fmt(n){ return '$'+(n||0).toLocaleString('es-CO'); }
-
-function addToCart(id){
-  cart[id]=(cart[id]||0)+1;
-  updateCartBadge();
-  const btn=document.getElementById('addbtn-'+id);
-  if(btn){ btn.textContent='✓ Agregado'; btn.classList.add('added'); setTimeout(()=>{btn.textContent='+ Agregar';btn.classList.remove('added');},1200); }
-  showToast('Producto agregado al carrito');
+function addToCart(id, e){
+  e.stopPropagation();
+  const p = PRODUCTS.find(x=>x.id===id);
+  cart[id] = cart[id] ? {...cart[id], qty: cart[id].qty+1} : {...p, qty:1};
+  updateDot();
+  const btn = document.getElementById('btn-'+id);
+  if(btn){ btn.textContent='✓'; btn.classList.add('added'); }
 }
 
-function updateCartBadge(){
-  const n = Object.values(cart).reduce((a,b)=>a+b,0);
-  document.getElementById('cartBadge').textContent = n;
-}
-
-function renderCart(){
-  const body = document.getElementById('cartBody');
-  const keys = Object.keys(cart).filter(k=>cart[k]>0);
-  if(!keys.length){
-    body.innerHTML='<div class="cart-empty"><span>🛒</span><p>Tu carrito está vacío</p></div>';
-    document.getElementById('cartTotal').textContent='$0';
-    return;
-  }
-  let total=0;
-  body.innerHTML = keys.map(id=>{
-    const p = store.products.find(x=>x.id===id);
-    if(!p) return '';
-    const qty=cart[id]; const sub=p.price*qty; total+=sub;
-    const imgHtml = p.img ? `<img src="${p.img}" alt="${p.name}" style="width:100%;height:100%;object-fit:contain">` : (()=>{const c=store.categories.find(x=>x.id===p.cat);return `<span>${c?c.emoji:'📦'}</span>`;})();
-    return `<div class="cart-item">
-      <div class="ci-img">${imgHtml}</div>
-      <div class="ci-info">
-        <div class="ci-name">${p.name}</div>
-        <div class="ci-unit">${fmt(p.price)} c/u</div>
-        <div class="ci-qty">
-          <button class="qty-btn" onclick="changeQty('${id}',-1)">−</button>
-          <span class="qty-num">${qty}</span>
-          <button class="qty-btn" onclick="changeQty('${id}',1)">+</button>
-        </div>
-      </div>
-      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
-        <span class="ci-subtotal">${fmt(sub)}</span>
-        <button class="ci-del" onclick="changeQty('${id}',-999)" title="Eliminar">🗑️</button>
-      </div>
-    </div>`;
-  }).join('');
-  document.getElementById('cartTotal').textContent=fmt(total);
-}
-
-function changeQty(id,d){
-  cart[id]=Math.max(0,(cart[id]||0)+d);
-  if(!cart[id]) delete cart[id];
-  updateCartBadge(); renderCart();
+function updateDot(){
+  const total = Object.values(cart).reduce((s,i)=>s+i.qty,0);
+  document.getElementById('cartDot').textContent = total;
 }
 
 function toggleCart(){
-  const open=document.getElementById('cartPanel').classList.toggle('open');
-  document.getElementById('overlay').classList.toggle('open',open);
-  if(open) renderCart();
+  const overlay = document.getElementById('overlay');
+  const drawer = document.getElementById('drawer');
+  const open = drawer.classList.contains('open');
+  if(!open){ renderDrawer(); }
+  overlay.classList.toggle('open',!open);
+  drawer.classList.toggle('open',!open);
+  document.body.style.overflow = open ? '' : 'hidden';
 }
 
-function sendWhatsApp(){
-  const keys=Object.keys(cart).filter(k=>cart[k]>0);
-  if(!keys.length){showToast('Agrega productos primero');return;}
-  const name=document.getElementById('clientName').value.trim();
-  if(!name){showToast('Escribe tu nombre');return;}
-  let lines=['🛒 *PEDIDO — MI TIENDA WOW*','📲 Amway Colombia',''];
-  let total=0;
-  keys.forEach(id=>{
-    const p=store.products.find(x=>x.id===id);
-    if(!p) return;
-    const qty=cart[id]; const sub=p.price*qty; total+=sub;
-    lines.push(`▪ ${p.name}${p.code?' ('+p.code+')':''} × ${qty}  →  ${fmt(sub)}`);
-  });
-  lines.push('');
-  lines.push(`💰 *TOTAL: ${fmt(total)}*`);
-  lines.push('');
-  lines.push(`👤 Cliente: ${name}`);
-  const phone=document.getElementById('clientPhone').value.trim();
-  const city=document.getElementById('clientCity').value.trim();
-  if(phone) lines.push(`📱 Tel: ${phone}`);
-  if(city) lines.push(`📍 Ciudad: ${city}`);
-  lines.push('');
-  lines.push('_Pedido enviado desde MI TIENDA WOW_');
-  window.open('https://wa.me/573117700431?text='+encodeURIComponent(lines.join('\n')),'_blank');
-}
+function renderDrawer(){
+  const items = Object.values(cart).filter(i=>i.qty>0);
+  const di = document.getElementById('drawerItems');
+  const df = document.getElementById('drawerFooter');
 
-/* ═══════════════════════════════════════
-   ADMIN AUTH
-═══════════════════════════════════════ */
-function showAdminLogin(){
-  if(isAdmin){ openAdmin(); return; }
-  document.getElementById('loginOverlay').classList.add('open');
-  document.getElementById('loginPin').value='';
-  document.getElementById('loginError').style.display='none';
-  setTimeout(()=>document.getElementById('loginPin').focus(),100);
-}
-function doLogin(){
-  const pin=document.getElementById('loginPin').value;
-  if(pin===getPin()){ isAdmin=true; closeLogin(); openAdmin(); }
-  else{ document.getElementById('loginError').style.display='block'; document.getElementById('loginPin').value=''; }
-}
-function closeLogin(){ document.getElementById('loginOverlay').classList.remove('open'); }
+  if(!items.length){
+    di.innerHTML='<div class="empty-cart"><div class="ico">🛒</div><p>Tu pedido está vacío</p></div>';
+    df.innerHTML=''; return;
+  }
 
-/* ═══════════════════════════════════════
-   ADMIN PANEL
-═══════════════════════════════════════ */
-function openAdmin(){
-  document.getElementById('adminPanel').classList.add('open');
-  renderAdminProducts();
-  renderAdminCats();
-}
-function closeAdmin(){
-  document.getElementById('adminPanel').classList.remove('open');
-  isAdmin=false;
-}
-function switchAdminTab(tab,el){
-  document.querySelectorAll('.admin-tab').forEach(t=>t.classList.remove('active'));
-  el.classList.add('active');
-  ['adminProducts','adminCats','adminConfig'].forEach(id=>document.getElementById(id).style.display='none');
-  const map={products:'adminProducts',cats:'adminCats',config:'adminConfig'};
-  document.getElementById(map[tab]).style.display='block';
-}
-
-function renderAdminProducts(){
-  const cat=Object.fromEntries(store.categories.map(c=>[c.id,c]));
-  const list=document.getElementById('adminProdList');
-  if(!store.products.length){ list.innerHTML='<p style="text-align:center;color:var(--gray);font-family:var(--body);padding:1rem">No hay productos. ¡Agrega el primero!</p>'; return; }
-  list.innerHTML=store.products.map(p=>{
-    const c=cat[p.cat]||{};
-    const thumb=p.img?`<img src="${p.img}" alt="" style="width:100%;height:100%;object-fit:contain">`:`<div class="api-thumb-label">${c.emoji||'📦'}<br>Sin foto</div>`;
-    return `<div class="admin-prod-item">
-      <div class="api-thumb" onclick="openProductModal('${p.id}')">${thumb}</div>
-      <div class="api-info">
-        <div class="api-name">${p.name}</div>
-        <div class="api-cat">${c.emoji||''} ${c.name||'Sin categoría'}${p.code?' · '+p.code:''}</div>
-        <div class="api-price">${fmt(p.price)}</div>
+  di.innerHTML = items.map(i=>`
+    <div class="di">
+      <img class="di-img" src="${i.img}" alt="${i.name}" onerror="this.style.background='var(--green3)'">
+      <div class="di-info">
+        <div class="di-name">${i.name}</div>
+        <div class="di-price">${fmt(i.price ? i.price*i.qty : 0)}</div>
       </div>
-      <div class="api-actions">
-        <button class="btn-edit-sm" onclick="openProductModal('${p.id}')" title="Editar">✏️</button>
-        <button class="btn-del-sm" onclick="deleteProduct('${p.id}')" title="Eliminar">🗑️</button>
-      </div>
-    </div>`;
-  }).join('');
-}
-
-function renderAdminCats(){
-  const counts={};
-  store.products.forEach(p=>{ counts[p.cat]=(counts[p.cat]||0)+1; });
-  document.getElementById('adminCatList').innerHTML=store.categories.map(c=>`
-    <div class="cat-item">
-      <span class="cat-emoji" onclick="openCatModal('${c.id}')">${c.emoji}</span>
-      <div>
-        <div class="cat-name">${c.name}</div>
-        <div class="cat-prod-count">${counts[c.id]||0} productos</div>
-      </div>
-      <div class="api-actions">
-        <button class="btn-edit-sm" onclick="openCatModal('${c.id}')">✏️</button>
-        <button class="btn-del-sm" onclick="deleteCat('${c.id}')">🗑️</button>
+      <div class="di-ctrl">
+        <button class="qty-btn" onclick="chgQty(${i.id},-1)">−</button>
+        <span class="qty-num">${i.qty}</span>
+        <button class="qty-btn" onclick="chgQty(${i.id},1)">+</button>
       </div>
     </div>`).join('');
+
+  const total = items.filter(i=>i.price).reduce((s,i)=>s+i.price*i.qty,0);
+  const totalItems = items.reduce((s,i)=>s+i.qty,0);
+  df.innerHTML = `
+    <div class="total-row">
+      <span class="lbl">${totalItems} ítem${totalItems!==1?'s':''}</span>
+      <span class="amt">${total?fmt(total):'Consultar'}</span>
+    </div>
+    <button class="wa-btn" onclick="sendWA()">
+      <svg width="20" height="20" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.549 4.103 1.508 5.832L.057 23.846l6.177-1.43A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.373l-.359-.213-3.668.849.875-3.574-.234-.369A9.782 9.782 0 012.182 12C2.182 6.579 6.579 2.182 12 2.182S21.818 6.579 21.818 12 17.421 21.818 12 21.818z"/></svg>
+      Pedir por WhatsApp
+    </button>`;
 }
 
-/* ═══════════════════════════════════════
-   PRODUCT MODAL
-═══════════════════════════════════════ */
-function openProductModal(id){
-  editingProductId=id;
-  const modal=document.getElementById('productModal');
-  const p=id?store.products.find(x=>x.id===id):null;
-  document.getElementById('productModalTitle').textContent=p?'Editar Producto':'Nuevo Producto';
-  document.getElementById('prodName').value=p?p.name:'';
-  document.getElementById('prodDesc').value=p?p.desc:'';
-  document.getElementById('prodPrice').value=p?p.price:'';
-  document.getElementById('prodCode').value=p?(p.code||''):'';
-  // image
-  const preview=document.getElementById('productImgPreview');
-  const placeholder=document.getElementById('productImgPlaceholder');
-  if(p&&p.img){ preview.src=p.img; preview.style.display='block'; placeholder.style.display='none'; }
-  else{ preview.style.display='none'; placeholder.style.display='block'; }
-  // categories
-  const sel=document.getElementById('prodCat');
-  sel.innerHTML=store.categories.map(c=>`<option value="${c.id}" ${p&&p.cat===c.id?'selected':''}>${c.emoji} ${c.name}</option>`).join('');
-  modal.classList.add('open');
-}
-function closeProductModal(){ document.getElementById('productModal').classList.remove('open'); editingProductId=null; }
-
-function handleProductImg(input){
-  const file=input.files[0]; if(!file) return;
-  const reader=new FileReader();
-  reader.onload=e=>{
-    const preview=document.getElementById('productImgPreview');
-    preview.src=e.target.result; preview.style.display='block';
-    document.getElementById('productImgPlaceholder').style.display='none';
-  };
-  reader.readAsDataURL(file);
+function chgQty(id, delta){
+  if(!cart[id]) return;
+  cart[id].qty += delta;
+  if(cart[id].qty <= 0){
+    delete cart[id];
+    const btn = document.getElementById('btn-'+id);
+    if(btn){ btn.textContent='+'; btn.classList.remove('added'); }
+  }
+  updateDot();
+  renderDrawer();
 }
 
-function saveProduct(){
-  const name=document.getElementById('prodName').value.trim();
-  const price=parseFloat(document.getElementById('prodPrice').value);
-  const cat=document.getElementById('prodCat').value;
-  if(!name){showToast('El nombre es obligatorio');return;}
-  if(!price||price<0){showToast('Ingresa un precio válido');return;}
-  const imgSrc=document.getElementById('productImgPreview').src||'';
-  const validImg=(imgSrc&&imgSrc.startsWith('data:'))||imgSrc.startsWith('http')?imgSrc:'';
-  const prod={
-    id:editingProductId||('p'+Date.now()),
-    name, desc:document.getElementById('prodDesc').value.trim(),
-    cat, price, img:validImg,
-    code:document.getElementById('prodCode').value.trim()
-  };
-  if(editingProductId){ const i=store.products.findIndex(x=>x.id===editingProductId); if(i>=0) store.products[i]=prod; }
-  else store.products.push(prod);
-  saveStore(store); closeProductModal(); renderAdminProducts(); renderTabs(); renderCatalog();
-  showToast(editingProductId?'Producto actualizado':'Producto agregado ✓');
+function sendWA(){
+  const items = Object.values(cart).filter(i=>i.qty>0);
+  if(!items.length) return;
+  const total = items.filter(i=>i.price).reduce((s,i)=>s+i.price*i.qty,0);
+  const lines = items.map(i=>`• ${i.qty}x ${i.name} (${i.detail}) — Cód: ${i.code}${i.price?' — '+fmt(i.price*i.qty):''}`).join('\n');
+  const msg = `🌿 *Pedido MI TIENDA WOW — Amway Colombia 2026*\n\n${lines}\n\n${total?'*Total productos con precio: '+fmt(total)+'*\n':''}📅 Fecha: ${new Date().toLocaleDateString('es-CO')}\n\n_Enviado desde MI TIENDA WOW · Vibras Positivas HM_`;
+  window.open('https://wa.me/?text='+encodeURIComponent(msg),'_blank');
 }
 
-function deleteProduct(id){
-  if(!confirm('¿Eliminar este producto?')) return;
-  store.products=store.products.filter(p=>p.id!==id);
-  saveStore(store); renderAdminProducts(); renderTabs(); renderCatalog();
-  showToast('Producto eliminado');
+function setCat(cat, el){
+  activeCat = cat;
+  document.querySelectorAll('.cat-tab').forEach(t=>t.classList.remove('active'));
+  el.classList.add('active');
+  renderMain();
 }
 
-/* ═══════════════════════════════════════
-   CATEGORY MODAL
-═══════════════════════════════════════ */
-function openCatModal(id){
-  editingCatId=id;
-  const c=id?store.categories.find(x=>x.id===id):null;
-  document.getElementById('catModalTitle').textContent=c?'Editar Categoría':'Nueva Categoría';
-  document.getElementById('catEmoji').value=c?c.emoji:'📦';
-  document.getElementById('catName').value=c?c.name:'';
-  document.getElementById('catModal').classList.add('open');
-}
-function closeCatModal(){ document.getElementById('catModal').classList.remove('open'); editingCatId=null; }
-
-function saveCat(){
-  const name=document.getElementById('catName').value.trim();
-  const emoji=document.getElementById('catEmoji').value.trim()||'📦';
-  if(!name){showToast('El nombre es obligatorio');return;}
-  const cat={id:editingCatId||('c'+Date.now()),name,emoji};
-  if(editingCatId){ const i=store.categories.findIndex(x=>x.id===editingCatId); if(i>=0) store.categories[i]=cat; }
-  else store.categories.push(cat);
-  saveStore(store); closeCatModal(); renderAdminCats(); renderTabs();
-  showToast(editingCatId?'Categoría actualizada':'Categoría agregada ✓');
+function filter(){
+  searchQ = document.getElementById('searchInp').value;
+  renderMain();
 }
 
-function deleteCat(id){
-  const n=store.products.filter(p=>p.cat===id).length;
-  if(n>0){ showToast(`Mueve los ${n} productos antes de eliminar`); return; }
-  if(!confirm('¿Eliminar esta categoría?')) return;
-  store.categories=store.categories.filter(c=>c.id!==id);
-  saveStore(store); renderAdminCats(); renderTabs();
-  showToast('Categoría eliminada');
-}
-
-/* ═══════════════════════════════════════
-   IMAGES: LOGO & BANNER
-═══════════════════════════════════════ */
-function handleBannerUpload(input){
-  const file=input.files[0]; if(!file) return;
-  const reader=new FileReader();
-  reader.onload=e=>{
-    store.banner=e.target.result; saveStore(store);
-    applyBanner(); showToast('Banner actualizado ✓');
-  };
-  reader.readAsDataURL(file);
-}
-function handleLogoUpload(input){
-  const file=input.files[0]; if(!file) return;
-  const reader=new FileReader();
-  reader.onload=e=>{
-    store.logo=e.target.result; saveStore(store);
-    applyLogo(); showToast('Logo actualizado ✓');
-  };
-  reader.readAsDataURL(file);
-}
-function applyBanner(){
-  const img=document.getElementById('bannerImg');
-  const ph=document.getElementById('bannerPlaceholder');
-  const hint=document.getElementById('bannerHint');
-  if(store.banner){ img.src=store.banner; img.style.display='block'; ph.style.display='none'; hint.style.display='block'; }
-  else{ img.style.display='none'; ph.style.display='flex'; hint.style.display='none'; }
-}
-function applyLogo(){
-  const img=document.getElementById('logoImg');
-  const ph=document.getElementById('logoPlaceholder');
-  if(store.logo){ img.src=store.logo; img.style.display='block'; ph.style.display='none'; }
-  else{ img.style.display='none'; ph.style.display='block'; }
-}
-function handleBannerClick(){ if(isAdmin) document.getElementById('bannerFileInput').click(); }
-function handleLogoClick(){ if(isAdmin) document.getElementById('logoFileInput').click(); }
-
-function changePin(){
-  const p=document.getElementById('newPin').value.trim();
-  if(p.length<4){showToast('El PIN debe tener mínimo 4 dígitos');return;}
-  setPin(p); showToast('PIN actualizado ✓'); document.getElementById('newPin').value='';
-}
-
-/* ═══════════════════════════════════════
-   UTILS
-═══════════════════════════════════════ */
-function closeAllPanels(){
-  document.getElementById('cartPanel').classList.remove('open');
-  document.getElementById('overlay').classList.remove('open');
-}
-function showToast(msg){
-  const t=document.getElementById('toast');
-  t.textContent=msg; t.classList.add('show');
-  setTimeout(()=>t.classList.remove('show'),2200);
-}
-
-/* ═══════════════════════════════════════
-   INIT
-═══════════════════════════════════════ */
-applyBanner(); applyLogo(); renderTabs(); renderCatalog();
+renderMain();
 </script>
 </body>
 </html>
