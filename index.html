@@ -463,7 +463,7 @@ function sendWA(){
   const total = items.filter(i=>i.price).reduce((s,i)=>s+i.price*i.qty,0);
   const lines = items.map(i=>`• ${i.qty}x ${i.name} (${i.detail}) — Cód: ${i.code}${i.price?' — '+fmt(i.price*i.qty):''}`).join('\n');
   const msg = `🌿 *Pedido MI TIENDA WOW — Amway Colombia 2026*\n\n${lines}\n\n${total?'*Total productos con precio: '+fmt(total)+'*\n':''}📅 Fecha: ${new Date().toLocaleDateString('es-CO')}\n\n_Enviado desde MI TIENDA WOW · Vibras Positivas HM_`;
-  window.open('https://wa.me/?text='+encodeURIComponent(msg),'_blank');
+  window.open('https://wa.me/573117700431?text='+encodeURIComponent(msg),'_blank');
 }
 
 function setCat(cat, el){
